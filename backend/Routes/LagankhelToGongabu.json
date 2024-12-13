@@ -1,0 +1,114 @@
+{
+  "routeName": "Lagankhel to Gongabu Buspark",
+  "checkpoints": [
+    {
+      "name": "Lagankhel",
+      "latitude": 27.66571646592087,
+      "longitude": 85.32242814531976,
+      "distanceFromPrevious": 0
+    },
+    {
+      "name": "Kumaripati",
+      "latitude": 27.669941072386834,
+      "longitude": 85.32036488443262,
+      "distanceFromPrevious": 0.65
+    },
+    {
+      "name": "Jawalakhel",
+      "latitude": 27.67416643738636,
+      "longitude": 85.31226843129122,
+      "distanceFromPrevious": 1.2
+    },
+    {
+      "name": "Pulchowk",
+      "latitude": 27.678846431000323,
+      "longitude": 85.31691764053814,
+      "distanceFromPrevious": 2.6
+    },
+    {
+      "name": "Hariharbhawan",
+      "latitude": 27.68128915866794,
+      "longitude": 85.31562918104868,
+      "distanceFromPrevious": 0.65
+    },
+    {
+      "name": "Kupondole",
+      "latitude": 27.686491217517347,
+      "longitude": 85.31498846474844,
+      "distanceFromPrevious": 1.8
+    },
+    {
+      "name": "Tripureshwor",
+      "latitude": 27.695300534325906,
+      "longitude": 85.3150397187193,
+      "distanceFromPrevious": 1.6
+    },
+    {
+      "name": "NAC",
+      "latitude": 27.702831078108016,
+      "longitude": 85.31301024253945,
+      "distanceFromPrevious": 1.5
+    },
+    {
+      "name": "Jamal",
+      "latitude": 27.709614390837938,
+      "longitude": 85.31514767902324,
+      "distanceFromPrevious": 1.0
+    },
+    {
+      "name": "Lainchaur",
+      "latitude": 27.721717337099815,
+      "longitude": 85.31493303353051,
+      "distanceFromPrevious": 2.0
+    },
+    {
+      "name": "Lazimpat",
+      "latitude": 27.718794434723808,
+      "longitude": 85.31545012471834,
+      "distanceFromPrevious": 1.3
+    },
+    {
+      "name": "Panipokhari",
+      "latitude": 27.73705626107198,
+      "longitude": 85.32803794301759,
+      "distanceFromPrevious": 2.2
+    },
+    {
+      "name": "Rastrapati Bhawan",
+      "latitude": 27.67196146464912,
+      "longitude": 85.2999387636966,
+      "distanceFromPrevious": 11.2
+    },
+    {
+      "name": "Teaching Hospital",
+      "latitude": 27.739722311179314,
+      "longitude": 85.33041197852188,
+      "distanceFromPrevious": 10.3
+    },
+    {
+      "name": "Narayan Gopal Chowk",
+      "latitude": 27.74054058656301,
+      "longitude": 85.33749320401624,
+      "distanceFromPrevious": 1.2
+    },
+    {
+      "name": "Basundhara",
+      "latitude": 27.718224210040223,
+      "longitude": 85.32404978434352,
+      "distanceFromPrevious": 3.5
+    },
+    {
+      "name": "Samakhusi",
+      "latitude": 27.727550768360114,
+      "longitude": 85.31737480869054,
+      "distanceFromPrevious": 2.3
+    },
+    {
+      "name": "Gongabu",
+      "latitude": 27.73641210794491,
+      "longitude": 85.31252347140524,
+      "distanceFromPrevious": 1.5
+    }
+  ],
+  "totalDistance": 38.4
+}
