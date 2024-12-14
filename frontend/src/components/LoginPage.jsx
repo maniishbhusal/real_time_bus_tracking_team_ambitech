@@ -1,23 +1,23 @@
 // LoginPage.jsx
-import { useState } from 'react';
+import { useState } from "react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from "../context/AuthContext";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { LogIn } from 'lucide-react';
+import { LogIn } from "lucide-react";
 
 const LoginPage = () => {
+  const { isAuthenticated, logout } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const { login } = useAuth();
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setError("");
-    
+
     const success = login(email, password);
     if (!success) {
       setError("Invalid credentials. Please try again.");
@@ -37,7 +37,7 @@ const LoginPage = () => {
             <div className="space-y-2">
               <Input
                 type="email"
-                placeholder="admin@gmail.com"
+                placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
