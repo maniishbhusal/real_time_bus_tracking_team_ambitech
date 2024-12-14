@@ -21,11 +21,11 @@ namespace backend.Data
                 .IsUnique();
 
             // Configure one-to-many relationship
-            modelBuilder.Entity<Bus>()
-                .HasMany(b => b.Locations)
-                .WithOne(l => l.Bus)
-                .HasForeignKey(l => l.BusId)
-                .OnDelete(DeleteBehavior.Cascade);
+            // modelBuilder.Entity<Bus>()
+            //     .HasMany(b => b.Locations)
+            //     .WithOne(l => l.Bus)
+            //     .HasForeignKey(l => l.BusId)
+            //     .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

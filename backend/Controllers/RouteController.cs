@@ -68,5 +68,24 @@ namespace backend.Controllers
             return Ok(_routeData);
         }
 
+        //  its an endpoint to track the bus location.
+        private static BusLocation _currentBusLocation = new BusLocation
+        {
+            Latitude = 27.666494882229525,
+            Longitude = 85.32358121220484
+        };
+
+        [HttpGet("busLocation")]
+        public ActionResult<BusLocation> GetBusLocation()
+        {
+            return Ok(_currentBusLocation);
+        }
+
+        [HttpPost("busLocation")]
+        public ActionResult UpdateBusLocation([FromBody] BusLocation location)
+        {
+            _currentBusLocation = location;
+            return Ok();
+        }
     }
 }
